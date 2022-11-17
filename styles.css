@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    letter-spacing: .1em;
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(0, 136, 169, 0.8);
+}
+
+/* .search__bar {
+    color: rgb(0, 0, 0, 0.87);
+    width: 100%;
+    max-width: 800px;
+    height: 60px;
+    font-size: 20px;
+} */
+
+.container {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search__bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+.movie__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::placeholder {
+    color: #cac7ff;
+}
+
+.search__bar button img {
+    width: 25px;
+}
+
+.search__bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.movie {
+    min-height: 100vh;
+}
+
+.movie-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.movie-result {
+    margin-top: 4rem;
+}
+
+#movie {
+    margin: 2.4rem 0;
+}
+
+.movie-item {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+}
+
+.movie-img img{
+    width: 100%;
+    display: block;
+}
+
+.movie-name {
+    padding: 1.5rem 0.5rem;
+}
+
+.movie-name h3 {
+    font-size: 1.4rem;
+}
+
+@media screen and (min-width: 600px) {
+    .movie-search-box {
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #meal {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    font-family: open Sans, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#landing-page {
+    min-height: 100vh;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100px;
+}
+  
+#personal-logo {
+    width: 150x;
+    height: 40px;
+   
+}
+  
+.nav__link--list {
+    display: flex;
+  }
+  
+.nav__link {
+    margin: 0 12px;
+}
+  
+.nav__link--anchor {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+}
+  
+.fa-adjust {
+    font-size: 20px;
+}
+
+.navbar {
+    height: 326px;
+    padding: 40px 15px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.flex-col {
+    flex-direction: column !important;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+.align-center {
+    align-items: center !important;
+} */
