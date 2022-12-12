@@ -1,14 +1,23 @@
 async function main() {
-    const users = await fetch("https://www.omdbapi.com/?s=fast&apikey=429d7550")
+    const users = await fetch("https://www.omdbapi.com/?s=fast&apikey=429d7550");
     const usersData = await users.json();
-    console.log(usersData)
-}
+    const userListEl = document.querySelector(".user-list");
+    console.log(usersData);
+    userListEl.innerHTML = usersData
+        .map(
+            (user) =>
+            `<div class="user-card">
+                <div class="user-card_container">
+                    <h3>${Title}</h4>
+                    </a></p>
+                </div>
+            </div>`
+        )
+        .join("");
+        }
 
-main();
 
-
-
-
+    main();
 
 
 

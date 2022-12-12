@@ -114,6 +114,22 @@ button:hover {
     justify-content: center;
 }
 
+.user-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.user-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user-card__container {
+    padding: 35px 45px;
+}
 
 
 
