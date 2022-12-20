@@ -7,6 +7,15 @@
     background-color: #24252a;
 }
 
+body {
+    margin: 0;
+}
+
+:root {
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+}
+
 h1 {
     text-align: center;
     font-weight: 500;
@@ -98,6 +107,7 @@ button:hover {
     backdrop-filter: blur(4px) saturate(180%);
 }
 
+
 .search__bar input {
     background: transparent;
     flex: 1;
@@ -108,13 +118,33 @@ button:hover {
     color: #cac7ff;
 }
 
-.movie__img {
+/* .movie__img {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.movie {
+    width: 300px;
+    margin: 16px;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: #0088a9;
+    position: relative;
+    overflow: hidden;
 }
 
-.user-card {
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie img {
+    width: 100%;
+}
+
+/* .user-card {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 10px;
@@ -129,8 +159,55 @@ button:hover {
 
 .user-card__container {
     padding: 35px 45px;
+} */
+
+.movie-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px 16px;
+    letter-spacing: 0.5px;
 }
 
+.movie-info h3{
+    margin-top: 0;
+}
+
+.movie-info span {
+    background-color: #0088a9;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.movie-info span.green {
+    color: lightgreen;
+}
+
+.movie-info span.orange {
+    color: orange;
+}
+
+.movie-info span.red {
+    color: red;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 16px;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}
 
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <script src="https://kit.fontawesome.com/18b850442f.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </head>
+
 <body>
     <header>
         <img class="logo movie__img" src="./assets/logo.png" alt="logo">
@@ -23,20 +25,56 @@
         <a class="" href="#"><button>Contact</button></a>
     </header>
     <h1>Browse our Movies</h1>
-    <div class="container">
-        <form action="" class="search__bar">
-            <input type="text" placeholder="Search by make, model or keyword" id="movie-search-box" onkeyup="findMovies()">
-            <button type="submit"><i class="mag"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-    </div>
-    `<div class="user-card">
-        <div class="user-card_container">
-            <h3>Fast and furious</h4>
-            </a></p>
+
+    <form class="form search__bar">
+        <input type="text" placeholder="Search" id="search" class="search">
+    </form>
+
+    <main id="main">
+        <div class="movie">
+            <img src="./assets/basecinemaimg.jpg" alt="Image">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+
+            <div class="overview">
+                <h3>Overview</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium debitis voluptatem optio
+                fugit iure itaque totam enim porro pariatur.
+            </div>
         </div>
-    </div>`
+        <div class="movie">
+            <img src="./assets/basecinemaimg.jpg" alt="Image">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+
+            <div class="overview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium debitis voluptatem optio
+                fugit iure itaque totam enim porro pariatur.
+            </div>
+        </div>
+        <div class="movie">
+            <img src="./assets/basecinemaimg.jpg" alt="Image">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+
+            <div class="overview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium debitis voluptatem optio
+                fugit iure itaque totam enim porro pariatur.
+            </div>
+        </div>
+    </main>
 </body>
 <script src="index.js"></script>
+
 </html>
 
 
