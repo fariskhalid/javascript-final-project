@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 * {
+    font-family: sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -98,7 +99,7 @@ button:hover {
 
 .search__bar {
     width: 100%;
-    max-width: 700px;
+    /* max-width: 700px; */
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
@@ -129,7 +130,7 @@ button:hover {
     margin: 16px;
     border-radius: 3px;
     box-shadow: 0.2px 4px 5px rgba(0, 0, 0, 0.1);
-    background-color: #0088a9;
+    /* background-color: #0088a9; */
     position: relative;
     overflow: hidden;
 }
